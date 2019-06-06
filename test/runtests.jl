@@ -1,6 +1,6 @@
-using QInterpolate, Test
+using QInterpolations, Test
 
-@testset "QInterpoate" begin
+@testset "QInterpoations" begin
 x = range(0,stop=10,length=100)
 y1 = Array(x) + 1.0im*Array(x)
 y2 = (10.0+10.0im) .- Array(x)

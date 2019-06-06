@@ -1,4 +1,4 @@
-module QInterpolate
+module QInterpolations
 
 import Interpolations:interpolate,BSpline,Quadratic,Line,OnGrid,scale,gradient1,extrapolate
 import Base.getindex
